@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/ContentDbModel.dll">
+      <publishTime>03/13/2014 22:27:23</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>01/15/2014 14:45:15</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>01/15/2014 14:45:15</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServerCompact.dll">
+      <publishTime>01/15/2014 14:45:15</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>03/13/2014 20:08:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Mvc.FixedDisplayModes.dll">
+      <publishTime>03/13/2014 20:08:58</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/13/2014 20:08:58</publishTime>
+    </File>
+    <File Include="bin/Provider.dll">
+      <publishTime>03/13/2014 22:27:24</publishTime>
+    </File>
+    <File Include="bin/ProviderInterfaces.dll">
+      <publishTime>03/13/2014 22:27:24</publishTime>
+    </File>
+    <File Include="bin/ReportGeneratorService.dll">
+      <publishTime>03/13/2014 22:27:25</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>03/13/2014 20:08:58</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>03/13/2014 20:08:58</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>03/13/2014 20:08:58</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>03/13/2014 20:08:58</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>03/13/2014 20:08:58</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>03/13/2014 20:08:58</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>03/13/2014 20:08:58</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>03/13/2014 20:08:58</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>03/13/2014 20:08:58</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>02/20/2014 23:31:09</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>02/20/2014 23:31:11</publishTime>
+    </File>
+    <File Include="Pages/Home.aspx">
+      <publishTime>02/20/2014 23:35:24</publishTime>
+    </File>
+    <File Include="Pages/Home.html">
+      <publishTime>02/20/2014 23:35:24</publishTime>
+    </File>
+    <File Include="Pages/Listing.aspx">
+      <publishTime>03/13/2014 22:21:03</publishTime>
+    </File>
+    <File Include="Pages/Login.aspx">
+      <publishTime>03/13/2014 22:08:47</publishTime>
+    </File>
+    <File Include="Pages/Login.html">
+      <publishTime>02/20/2014 23:35:24</publishTime>
+    </File>
+    <File Include="Utils/img/glyphicons-halflings-white.png">
+      <publishTime>03/13/2014 22:08:46</publishTime>
+    </File>
+    <File Include="Utils/img/glyphicons-halflings.png">
+      <publishTime>03/13/2014 22:08:46</publishTime>
+    </File>
+    <File Include="Utils/Scripts/Backbone.js">
+      <publishTime>02/20/2014 23:35:50</publishTime>
+    </File>
+    <File Include="Utils/Scripts/bootstrap.js">
+      <publishTime>02/20/2014 23:35:50</publishTime>
+    </File>
+    <File Include="Utils/Scripts/Jquery.js">
+      <publishTime>02/20/2014 23:35:50</publishTime>
+    </File>
+    <File Include="Utils/Scripts/Mustache.js">
+      <publishTime>02/21/2014 01:12:07</publishTime>
+    </File>
+    <File Include="Utils/Scripts/Underscore.js">
+      <publishTime>02/20/2014 23:35:50</publishTime>
+    </File>
+    <File Include="Utils/Stylesheets/bootstrap.min.css">
+      <publishTime>02/20/2014 23:35:50</publishTime>
+    </File>
+    <File Include="Utils/Stylesheets/bootstrap1.min.css">
+      <publishTime>02/20/2014 23:35:50</publishTime>
+    </File>
+    <File Include="Utils/Stylesheets/local.css">
+      <publishTime>03/13/2014 22:11:25</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>02/20/2014 23:31:09</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/13/2014 22:27:25</publishTime>
+    </File>
+    <File Include="Widgets/Listing/Scripts/ListingCollection.js">
+      <publishTime>03/13/2014 21:18:59</publishTime>
+    </File>
+    <File Include="Widgets/Listing/Scripts/ListingModel.js">
+      <publishTime>03/13/2014 21:18:59</publishTime>
+    </File>
+    <File Include="Widgets/Listing/Scripts/ListingView.js">
+      <publishTime>03/13/2014 21:18:59</publishTime>
+    </File>
+    <File Include="Widgets/Login/Scripts/LoginCollection.js">
+      <publishTime>03/12/2014 21:22:03</publishTime>
+    </File>
+    <File Include="Widgets/Login/Scripts/LoginController.js">
+      <publishTime>02/20/2014 23:36:10</publishTime>
+    </File>
+    <File Include="Widgets/Login/Scripts/LoginModel.js">
+      <publishTime>03/12/2014 22:09:29</publishTime>
+    </File>
+    <File Include="Widgets/Login/Scripts/LoginView.js">
+      <publishTime>03/13/2014 21:11:59</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+C:\Users\mchalode\Desktop\IMSReportGenerator\IMSReportGenerator\IMSReportGenerator\bin\IMSReportGenerator.dll
+C:\Users\mchalode\Desktop\IMSReportGenerator\IMSReportGenerator\IMSReportGenerator\bin\IMSReportGenerator.pdb
+C:\Users\mchalode\Desktop\IMSReportGenerator\IMSReportGenerator\IMSReportGenerator\obj\Debug\IMSReportGenerator.dll
+C:\Users\mchalode\Desktop\IMSReportGenerator\IMSReportGenerator\IMSReportGenerator\obj\Debug\IMSReportGenerator.pdb
+C:\Users\mchalode\Desktop\IMSReportGenerator\IMSReportGenerator\IMSReportGenerator\obj\Debug\IMSReportGenerator.csprojResolveAssemblyReference.cache
+D:\Entertainment\Documents\SkyDrive\Documents\IMSReportGenerator\IMSReportGenerator\IMSReportGenerator\bin\IMSReportGenerator.dll
+D:\Entertainment\Documents\SkyDrive\Documents\IMSReportGenerator\IMSReportGenerator\IMSReportGenerator\bin\IMSReportGenerator.pdb
+D:\Entertainment\Documents\SkyDrive\Documents\IMSReportGenerator\IMSReportGenerator\IMSReportGenerator\obj\Debug\IMSReportGenerator.csprojResolveAssemblyReference.cache
+D:\Entertainment\Documents\SkyDrive\Documents\IMSReportGenerator\IMSReportGenerator\IMSReportGenerator\obj\Debug\IMSReportGenerator.dll
+D:\Entertainment\Documents\SkyDrive\Documents\IMSReportGenerator\IMSReportGenerator\IMSReportGenerator\obj\Debug\IMSReportGenerator.pdb

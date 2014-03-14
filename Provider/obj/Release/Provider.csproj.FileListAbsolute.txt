@@ -1,0 +1,13 @@
+D:\Entertainment\Documents\SkyDrive\OneDrive\Documents\IMSReportGenerator\IMSReportGenerator\Provider\bin\Release\Provider.dll.config
+D:\Entertainment\Documents\SkyDrive\OneDrive\Documents\IMSReportGenerator\IMSReportGenerator\Provider\bin\Release\Provider.dll
+D:\Entertainment\Documents\SkyDrive\OneDrive\Documents\IMSReportGenerator\IMSReportGenerator\Provider\bin\Release\Provider.pdb
+D:\Entertainment\Documents\SkyDrive\OneDrive\Documents\IMSReportGenerator\IMSReportGenerator\Provider\bin\Release\ContentDbModel.dll
+D:\Entertainment\Documents\SkyDrive\OneDrive\Documents\IMSReportGenerator\IMSReportGenerator\Provider\bin\Release\EntityFramework.dll
+D:\Entertainment\Documents\SkyDrive\OneDrive\Documents\IMSReportGenerator\IMSReportGenerator\Provider\bin\Release\EntityFramework.SqlServer.dll
+D:\Entertainment\Documents\SkyDrive\OneDrive\Documents\IMSReportGenerator\IMSReportGenerator\Provider\bin\Release\EntityFramework.SqlServerCompact.dll
+D:\Entertainment\Documents\SkyDrive\OneDrive\Documents\IMSReportGenerator\IMSReportGenerator\Provider\bin\Release\ProviderInterfaces.dll
+D:\Entertainment\Documents\SkyDrive\OneDrive\Documents\IMSReportGenerator\IMSReportGenerator\Provider\bin\Release\ContentDbModel.pdb
+D:\Entertainment\Documents\SkyDrive\OneDrive\Documents\IMSReportGenerator\IMSReportGenerator\Provider\bin\Release\ProviderInterfaces.pdb
+D:\Entertainment\Documents\SkyDrive\OneDrive\Documents\IMSReportGenerator\IMSReportGenerator\Provider\obj\Release\Provider.csprojResolveAssemblyReference.cache
+D:\Entertainment\Documents\SkyDrive\OneDrive\Documents\IMSReportGenerator\IMSReportGenerator\Provider\obj\Release\Provider.dll
+D:\Entertainment\Documents\SkyDrive\OneDrive\Documents\IMSReportGenerator\IMSReportGenerator\Provider\obj\Release\Provider.pdb

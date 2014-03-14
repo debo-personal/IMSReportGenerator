@@ -1,0 +1,9 @@
+D:\Entertainment\Documents\SkyDrive\OneDrive\Documents\IMSReportGenerator\IMSReportGenerator\ProviderInterfaces\bin\Release\ProviderInterfaces.dll
+D:\Entertainment\Documents\SkyDrive\OneDrive\Documents\IMSReportGenerator\IMSReportGenerator\ProviderInterfaces\bin\Release\ProviderInterfaces.pdb
+D:\Entertainment\Documents\SkyDrive\OneDrive\Documents\IMSReportGenerator\IMSReportGenerator\ProviderInterfaces\bin\Release\ContentDbModel.dll
+D:\Entertainment\Documents\SkyDrive\OneDrive\Documents\IMSReportGenerator\IMSReportGenerator\ProviderInterfaces\bin\Release\EntityFramework.dll
+D:\Entertainment\Documents\SkyDrive\OneDrive\Documents\IMSReportGenerator\IMSReportGenerator\ProviderInterfaces\bin\Release\ContentDbModel.pdb
+D:\Entertainment\Documents\SkyDrive\OneDrive\Documents\IMSReportGenerator\IMSReportGenerator\ProviderInterfaces\bin\Release\EntityFramework.xml
+D:\Entertainment\Documents\SkyDrive\OneDrive\Documents\IMSReportGenerator\IMSReportGenerator\ProviderInterfaces\obj\Release\ProviderInterfaces.csprojResolveAssemblyReference.cache
+D:\Entertainment\Documents\SkyDrive\OneDrive\Documents\IMSReportGenerator\IMSReportGenerator\ProviderInterfaces\obj\Release\ProviderInterfaces.dll
+D:\Entertainment\Documents\SkyDrive\OneDrive\Documents\IMSReportGenerator\IMSReportGenerator\ProviderInterfaces\obj\Release\ProviderInterfaces.pdb

@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{98DDF26C-E96B-4B98-9B63-35BDB48A9ED3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ContentDbModel</RootNamespace>
+    <AssemblyName>ContentDbModel</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.0-beta1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.0-beta1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\Activity.cs" />
+    <Compile Include="Models\ActivityBlackOutPeriod.cs" />
+    <Compile Include="Models\ActivityListingRequest.cs" />
+    <Compile Include="Models\ActivityOption.cs" />
+    <Compile Include="Models\ActivityPaginationInfo.cs" />
+    <Compile Include="Models\AdditionalInformation.cs" />
+    <Compile Include="Models\Airport.cs" />
+    <Compile Include="Models\Amenity.cs" />
+    <Compile Include="Models\BoardBasis.cs" />
+    <Compile Include="Models\City.cs" />
+    <Compile Include="Models\ClarifiHotelMapping.cs" />
+    <Compile Include="Models\Country.cs" />
+    <Compile Include="Models\Currency.cs" />
+    <Compile Include="Models\C__RefactorLog.cs" />
+    <Compile Include="Models\HotelListingResponse.cs" />
+    <Compile Include="Models\HotelRow.cs" />
+    <Compile Include="Models\PaginationInfo.cs" />
+    <Compile Include="Models\TaviscaCatapultDatabaseContentContext.cs" />
+    <Compile Include="Models\HotelAmenity.cs" />
+    <Compile Include="Models\HotelBoardBasis.cs" />
+    <Compile Include="Models\HotelMigrationLog.cs" />
+    <Compile Include="Models\HotelRoom.cs" />
+    <Compile Include="Models\HotelRoomBlackoutPeriod.cs" />
+    <Compile Include="Models\HotelSecondaryInformation.cs" />
+    <Compile Include="Models\Image.cs" />
+    <Compile Include="Models\Mapping\ActivityBlackOutPeriodMap.cs" />
+    <Compile Include="Models\Mapping\ActivityMap.cs" />
+    <Compile Include="Models\Mapping\ActivityOptionMap.cs" />
+    <Compile Include="Models\Mapping\AdditionalInformationMap.cs" />
+    <Compile Include="Models\Mapping\AirportMap.cs" />
+    <Compile Include="Models\Mapping\AmenityMap.cs" />
+    <Compile Include="Models\Mapping\BoardBasisMap.cs" />
+    <Compile Include="Models\Mapping\CityMap.cs" />
+    <Compile Include="Models\Mapping\ClarifiHotelMappingMap.cs" />
+    <Compile Include="Models\Mapping\CountryMap.cs" />
+    <Compile Include="Models\Mapping\CurrencyMap.cs" />
+    <Compile Include="Models\Mapping\C__RefactorLogMap.cs" />
+    <Compile Include="Models\Mapping\HotelAmenityMap.cs" />
+    <Compile Include="Models\Mapping\HotelBoardBasisMap.cs" />
+    <Compile Include="Models\Mapping\HotelMigrationLogMap.cs" />
+    <Compile Include="Models\Mapping\HotelRoomBlackoutPeriodMap.cs" />
+    <Compile Include="Models\Mapping\HotelRoomMap.cs" />
+    <Compile Include="Models\Mapping\HotelSecondaryInformationMap.cs" />
+    <Compile Include="Models\Mapping\ImageMap.cs" />
+    <Compile Include="Models\Mapping\ProductCommentMap.cs" />
+    <Compile Include="Models\Mapping\ProductTypeMap.cs" />
+    <Compile Include="Models\Mapping\ScopeSuppliersMappingMap.cs" />
+    <Compile Include="Models\Mapping\StateMap.cs" />
+    <Compile Include="Models\Mapping\UserHotelMap.cs" />
+    <Compile Include="Models\ProductComment.cs" />
+    <Compile Include="Models\ProductType.cs" />
+    <Compile Include="Models\ScopeSuppliersMapping.cs" />
+    <Compile Include="Models\State.cs" />
+    <Compile Include="Models\UserHotel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
