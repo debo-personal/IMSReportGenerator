@@ -53,6 +53,8 @@
   <ItemGroup>
     <Compile Include="IMSDBProvider\ContentDBProvider.cs" />
     <Compile Include="IMSDBProvider\RateDBProvider.cs" />
+    <Compile Include="MockProvider\MockContentDBProvider.cs" />
+    <Compile Include="MockProvider\MockRateDBProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

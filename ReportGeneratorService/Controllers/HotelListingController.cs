@@ -1,7 +1,9 @@
-﻿using System.Linq;
+﻿using System.Configuration;
+using System.Linq;
 using System.Web.Http;
 using ContentDbModel.Models;
 using Provider.IMSDBProvider;
+using Provider.MockProvider;
 using ProviderInterfaces;
 
 namespace ReportGeneratorService.Controllers
@@ -9,6 +11,7 @@ namespace ReportGeneratorService.Controllers
     public class HotelListingController : ApiController
     {
         private readonly IContentProvider _contentProvider = new ContentDbProvider();
+        private readonly IContentProvider _mockContentProvider = new MockContentDbProvider();
 
         public HotelListingResponse GetHotelRows(string activityName, string cityName, string tagName, int top, int skip)
         {
@@ -22,7 +25,9 @@ namespace ReportGeneratorService.Controllers
                 Top = top
             };
 
-            return _contentProvider.GetUserHotels(request);
+            return ConfigurationManager.AppSettings["UseMockData"] == "true"
+                       ? _mockContentProvider.GetUserHotels(request)
+                       : _contentProvider.GetUserHotels(request);
         }
 
         public HotelRow GetHotelRow(long id)

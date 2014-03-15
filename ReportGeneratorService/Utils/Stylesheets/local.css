@@ -43,5 +43,5 @@
 
 .maxHeight {
     max-height: 600px !important;
-    overflow-y: scroll !important;
+    overflow-y: auto !important;
 }

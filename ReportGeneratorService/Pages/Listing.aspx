@@ -14,7 +14,7 @@
             <div class="container mbxl">
                 <div class="row">
                     <div class="span1 ">
-                        <label class="text-right">Activity Name</label>
+                        <label class="text-right">Hotel Name</label>
                     </div>
                     <div class="span2">
                         <input id="activityName" type="text" class="form-control input-medium" />
@@ -43,9 +43,9 @@
                     <thead>
                         <tr>
                             <th class="text-center span1" title="click id to view details">Id</th>
-                            <th class="text-center span3">Name</th>
+                            <th class="text-center span4">Name</th>
                             <th class="text-center span2">Phone</th>
-                            <th class="text-center span5">Address</th>
+                            <th class="text-center span4">Address</th>
                             <th class="text-center span2">Compare</th>
                         </tr>
                     </thead>
