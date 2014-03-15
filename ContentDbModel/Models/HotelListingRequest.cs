@@ -1,8 +1,8 @@
 ﻿namespace ContentDbModel.Models
 {
-    public class ActivityListingRequest
+    public class HotelListingRequest
     {
-        public string ActivityName { get; set; }
+        public string HotelName { get; set; }
 
         public string CityName { get; set; }
 

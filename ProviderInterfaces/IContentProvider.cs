@@ -10,7 +10,7 @@ namespace ProviderInterfaces
     public interface IContentProvider
     {
         HotelRow GetUserHotel(long id, string scope);
-        HotelListingResponse GetUserHotels(ActivityListingRequest activityListingRequest);
+        HotelListingResponse GetUserHotels(HotelListingRequest hotelListingRequest);
 
     }
 }

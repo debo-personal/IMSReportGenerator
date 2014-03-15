@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.InteropServices;
 using ContentDbModel.Models;
 using ProviderInterfaces;
 
@@ -25,7 +24,7 @@ namespace Provider.IMSDBProvider
             }
         }
 
-        public HotelListingResponse GetUserHotels(ActivityListingRequest activityListingRequest)
+        public HotelListingResponse GetUserHotels(HotelListingRequest hotelListingRequest)
         {
             using (var db = new TaviscaCatapultDatabaseContentContext())
             {
@@ -33,11 +32,11 @@ namespace Provider.IMSDBProvider
                 var count = db.UserHotels.Count();
 
                 List<UserHotel> hotels = (from userHotel in db.UserHotels
-                                          where (activityListingRequest.ActivityName == null || activityListingRequest.ActivityName == "" || userHotel.HotelName.Contains(activityListingRequest.ActivityName)) &&
-                                                (activityListingRequest.CityName == null || activityListingRequest.CityName == "" || (userHotel.CityName.Contains(activityListingRequest.CityName) ||
-                                                 userHotel.CityCode.Contains(activityListingRequest.CityName)))
+                                          where (hotelListingRequest.HotelName == null || hotelListingRequest.HotelName == "" || userHotel.HotelName.Contains(hotelListingRequest.HotelName)) &&
+                                                (hotelListingRequest.CityName == null || hotelListingRequest.CityName == "" || (userHotel.CityName.Contains(hotelListingRequest.CityName) ||
+                                                 userHotel.CityCode.Contains(hotelListingRequest.CityName)))
 
-                                          select userHotel).OrderBy(d => d.ClarifiHotelMappingId).Skip(activityListingRequest.Skip).Take(activityListingRequest.Top).ToList();
+                                          select userHotel).OrderBy(d => d.ClarifiHotelMappingId).Skip(hotelListingRequest.Skip).Take(hotelListingRequest.Top).ToList();
                 return new HotelListingResponse()
                 {
                     HotelRows = hotels.Select(hotel => new HotelRow()
@@ -52,8 +51,8 @@ namespace Provider.IMSDBProvider
 
                     PaginationInfo = new PaginationInfo()
                     {
-                        Start = activityListingRequest.Skip + 1,
-                        Stop = Math.Min(count, activityListingRequest.Top + activityListingRequest.Skip),
+                        Start = hotelListingRequest.Skip + 1,
+                        Stop = Math.Min(count, hotelListingRequest.Top + hotelListingRequest.Skip),
                         Total = count
                     }
                 };

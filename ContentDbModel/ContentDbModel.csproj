@@ -48,7 +48,7 @@
   <ItemGroup>
     <Compile Include="Models\Activity.cs" />
     <Compile Include="Models\ActivityBlackOutPeriod.cs" />
-    <Compile Include="Models\ActivityListingRequest.cs" />
+    <Compile Include="Models\HotelListingRequest.cs" />
     <Compile Include="Models\ActivityOption.cs" />
     <Compile Include="Models\ActivityPaginationInfo.cs" />
     <Compile Include="Models\AdditionalInformation.cs" />

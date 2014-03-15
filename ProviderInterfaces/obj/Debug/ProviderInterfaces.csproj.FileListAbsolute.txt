@@ -16,3 +16,12 @@ D:\Entertainment\Documents\SkyDrive\OneDrive\Documents\IMSReportGenerator\IMSRep
 D:\Entertainment\Documents\SkyDrive\OneDrive\Documents\IMSReportGenerator\IMSReportGenerator\ProviderInterfaces\obj\Debug\ProviderInterfaces.csprojResolveAssemblyReference.cache
 D:\Entertainment\Documents\SkyDrive\OneDrive\Documents\IMSReportGenerator\IMSReportGenerator\ProviderInterfaces\obj\Debug\ProviderInterfaces.dll
 D:\Entertainment\Documents\SkyDrive\OneDrive\Documents\IMSReportGenerator\IMSReportGenerator\ProviderInterfaces\obj\Debug\ProviderInterfaces.pdb
+D:\Git\IMSReportGenerator\ProviderInterfaces\bin\Debug\ProviderInterfaces.dll
+D:\Git\IMSReportGenerator\ProviderInterfaces\bin\Debug\ProviderInterfaces.pdb
+D:\Git\IMSReportGenerator\ProviderInterfaces\bin\Debug\ContentDbModel.dll
+D:\Git\IMSReportGenerator\ProviderInterfaces\bin\Debug\EntityFramework.dll
+D:\Git\IMSReportGenerator\ProviderInterfaces\bin\Debug\ContentDbModel.pdb
+D:\Git\IMSReportGenerator\ProviderInterfaces\bin\Debug\EntityFramework.xml
+D:\Git\IMSReportGenerator\ProviderInterfaces\obj\Debug\ProviderInterfaces.csprojResolveAssemblyReference.cache
+D:\Git\IMSReportGenerator\ProviderInterfaces\obj\Debug\ProviderInterfaces.dll
+D:\Git\IMSReportGenerator\ProviderInterfaces\obj\Debug\ProviderInterfaces.pdb

@@ -9,12 +9,12 @@ $(document).ready(function () {
 
     window.Innventia.Views.LoginView = Backbone.View.extend({
 
-        template: Innventia.Templates.ActivityListingTemplate,
+        template: Innventia.Templates.HotelListingTemplate,
 
         el: $('#listingContainer'),
 
         model: new (window.Innventia.Models.ListingModel.extend({
-            urlRoot: '/IMSapi/ActivityListing'
+            urlRoot: '/IMSapi/HotelListing'
         })),
 
         collection: new window.Innventia.Collections.ListingCollection(),
