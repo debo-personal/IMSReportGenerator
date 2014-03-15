@@ -56,33 +56,6 @@ namespace Provider.IMSDBProvider
                         Total = count
                     }
                 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                //var hotels = db.UserHotels.Where(uh => uh.Scope == scope).ToList();
-
-
-
-                //return hotels.Select(hotel => new HotelRow()
-                //{
-                //    Address =
-                //        string.Format("{0} {1} {2} {3} {4}", hotel.Address1, hotel.Address2, hotel.CityName,
-                //            hotel.StateName, hotel.CountryCode),
-                //    Phone = hotel.PhoneNumber,
-                //    Id = hotel.ClarifiHotelMappingId,
-                //    Name = hotel.HotelName
-                //}).ToList();
             }
         }
     }
