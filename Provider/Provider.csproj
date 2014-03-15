@@ -39,9 +39,6 @@
     <Reference Include="EntityFramework.SqlServerCompact">
       <HintPath>..\References\EntityFramework6\EntityFramework.SqlServerCompact.dll</HintPath>
     </Reference>
-    <Reference Include="ReportGeneratorService">
-      <HintPath>..\ReportGeneratorService\Bin\ReportGeneratorService.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />

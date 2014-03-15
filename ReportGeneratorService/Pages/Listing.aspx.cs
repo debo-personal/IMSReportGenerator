@@ -28,6 +28,7 @@ namespace ReportGeneratorService.Pages
             ScriptManager.RegisterStartupScript(this, GetType(), "Backbone", Helper.GetScriptTag(ResolveUrl("../Utils/Scripts/Backbone.js")), false);
 
             //register views
+            ScriptManager.RegisterStartupScript(this, GetType(), "AppStart", Helper.GetScriptTag(ResolveUrl("../Widgets/Home/Scripts/App_Start.js")), false);
             ScriptManager.RegisterStartupScript(this, GetType(), "ViewTemplates", Helper.GetScriptTag(ResolveUrl("../Widgets/Templates/ViewTemplates.js")), false);
             ScriptManager.RegisterStartupScript(this, GetType(), "ListingModel", Helper.GetScriptTag(ResolveUrl("../Widgets/Listing/Scripts/ListingModel.js")), false);
             ScriptManager.RegisterStartupScript(this, GetType(), "ListingCollection", Helper.GetScriptTag(ResolveUrl("../Widgets/Listing/Scripts/ListingCollection.js")), false);

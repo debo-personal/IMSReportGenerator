@@ -16,7 +16,7 @@ namespace ReportGeneratorService.Controllers
         public HotelListingResponse GetHotelRows(string activityName, string cityName, string tagName, int top, int skip)
         {
 
-            var request = new ContentDbModel.Models.HotelListingRequest()
+            var request = new HotelListingRequest()
             {
                 HotelName = activityName,
                 CityName = cityName,

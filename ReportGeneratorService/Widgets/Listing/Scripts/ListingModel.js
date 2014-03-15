@@ -1,4 +1,4 @@
-﻿$(document).ready(function () {
+﻿(function (window, $, undefined) {
 
     if (window.Innventia == null)
         window.Innventia = {};
@@ -14,4 +14,4 @@
             Address: ''
         }
     });
-});
+})(window, jQuery);

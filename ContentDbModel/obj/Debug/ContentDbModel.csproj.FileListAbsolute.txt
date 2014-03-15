@@ -26,3 +26,4 @@ D:\Git\IMSReportGenerator\ContentDbModel\bin\Debug\EntityFramework.xml
 D:\Git\IMSReportGenerator\ContentDbModel\bin\Debug\EntityFramework.SqlServer.xml
 D:\Git\IMSReportGenerator\ContentDbModel\obj\Debug\ContentDbModel.dll
 D:\Git\IMSReportGenerator\ContentDbModel\obj\Debug\ContentDbModel.pdb
+D:\Git\IMSReportGenerator\ContentDbModel\obj\Debug\ContentDbModel.csprojResolveAssemblyReference.cache

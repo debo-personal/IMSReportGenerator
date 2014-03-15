@@ -181,6 +181,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Views\Web.config" />
+    <Content Include="Widgets\Home\Scripts\App_Start.js" />
     <Content Include="Widgets\Listing\Scripts\ListingCollection.js" />
     <Content Include="Widgets\Listing\Scripts\ListingModel.js" />
     <Content Include="Widgets\Listing\Scripts\ListingView.js" />
@@ -192,7 +193,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Widgets\Home\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

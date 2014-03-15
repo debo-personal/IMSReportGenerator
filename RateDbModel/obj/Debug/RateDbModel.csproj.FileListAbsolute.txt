@@ -25,3 +25,4 @@ D:\Git\IMSReportGenerator\RateDbModel\bin\Debug\EntityFramework.xml
 D:\Git\IMSReportGenerator\RateDbModel\bin\Debug\EntityFramework.SqlServer.xml
 D:\Git\IMSReportGenerator\RateDbModel\obj\Debug\RateDbModel.dll
 D:\Git\IMSReportGenerator\RateDbModel\obj\Debug\RateDbModel.pdb
+D:\Git\IMSReportGenerator\RateDbModel\obj\Debug\RateDbModel.csprojResolveAssemblyReference.cache

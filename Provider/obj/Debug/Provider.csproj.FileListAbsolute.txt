@@ -47,13 +47,3 @@ D:\Git\IMSReportGenerator\Provider\bin\Debug\ProviderInterfaces.pdb
 D:\Git\IMSReportGenerator\Provider\obj\Debug\Provider.csprojResolveAssemblyReference.cache
 D:\Git\IMSReportGenerator\Provider\obj\Debug\Provider.dll
 D:\Git\IMSReportGenerator\Provider\obj\Debug\Provider.pdb
-D:\Git\IMSReportGenerator\Provider\bin\Debug\ReportGeneratorService.dll
-D:\Git\IMSReportGenerator\Provider\bin\Debug\System.Web.Http.dll
-D:\Git\IMSReportGenerator\Provider\bin\Debug\System.Web.Http.WebHost.dll
-D:\Git\IMSReportGenerator\Provider\bin\Debug\System.Net.Http.Formatting.dll
-D:\Git\IMSReportGenerator\Provider\bin\Debug\Newtonsoft.Json.dll
-D:\Git\IMSReportGenerator\Provider\bin\Debug\ReportGeneratorService.pdb
-D:\Git\IMSReportGenerator\Provider\bin\Debug\System.Web.Http.xml
-D:\Git\IMSReportGenerator\Provider\bin\Debug\System.Web.Http.WebHost.xml
-D:\Git\IMSReportGenerator\Provider\bin\Debug\System.Net.Http.Formatting.xml
-D:\Git\IMSReportGenerator\Provider\bin\Debug\Newtonsoft.Json.xml

@@ -70,6 +70,9 @@ D:\Entertainment\Documents\SkyDrive\OneDrive\Documents\IMSReportGenerator\IMSRep
 D:\Entertainment\Documents\SkyDrive\OneDrive\Documents\IMSReportGenerator\IMSReportGenerator\ReportGeneratorService\obj\Debug\ReportGeneratorService.csprojResolveAssemblyReference.cache
 D:\Entertainment\Documents\SkyDrive\OneDrive\Documents\IMSReportGenerator\IMSReportGenerator\ReportGeneratorService\obj\Debug\ReportGeneratorService.dll
 D:\Entertainment\Documents\SkyDrive\OneDrive\Documents\IMSReportGenerator\IMSReportGenerator\ReportGeneratorService\obj\Debug\ReportGeneratorService.pdb
+D:\Git\IMSReportGenerator\ReportGeneratorService\obj\Debug\ReportGeneratorService.dll
+D:\Git\IMSReportGenerator\ReportGeneratorService\obj\Debug\ReportGeneratorService.csprojResolveAssemblyReference.cache
+D:\Git\IMSReportGenerator\ReportGeneratorService\obj\Debug\ReportGeneratorService.pdb
 D:\Git\IMSReportGenerator\ReportGeneratorService\bin\ReportGeneratorService.dll
 D:\Git\IMSReportGenerator\ReportGeneratorService\bin\ReportGeneratorService.pdb
 D:\Git\IMSReportGenerator\ReportGeneratorService\bin\ContentDbModel.dll
@@ -103,6 +106,3 @@ D:\Git\IMSReportGenerator\ReportGeneratorService\bin\System.Web.Razor.xml
 D:\Git\IMSReportGenerator\ReportGeneratorService\bin\System.Web.WebPages.xml
 D:\Git\IMSReportGenerator\ReportGeneratorService\bin\System.Web.WebPages.Deployment.xml
 D:\Git\IMSReportGenerator\ReportGeneratorService\bin\System.Web.WebPages.Razor.xml
-D:\Git\IMSReportGenerator\ReportGeneratorService\obj\Debug\ReportGeneratorService.csprojResolveAssemblyReference.cache
-D:\Git\IMSReportGenerator\ReportGeneratorService\obj\Debug\ReportGeneratorService.dll
-D:\Git\IMSReportGenerator\ReportGeneratorService\obj\Debug\ReportGeneratorService.pdb

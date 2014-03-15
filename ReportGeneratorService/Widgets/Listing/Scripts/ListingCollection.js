@@ -1,4 +1,4 @@
-﻿$(document).ready(function () {
+﻿(function (window, $, undefined) {
 
     if (window.Innventia == null)
         window.Innventia = {};
@@ -10,4 +10,4 @@
         url: '/IMSapi/HotelListing',
         model: window.Innventia.Models.ListingModel
     });
-});
+})(window, jQuery);

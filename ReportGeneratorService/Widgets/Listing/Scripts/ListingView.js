@@ -1,5 +1,5 @@
-﻿//(function (window, $, undefined) {
-$(document).ready(function () {
+﻿(function (window, $, undefined) {
+
 
     if (window.Innventia == null)
         window.Innventia = {};
@@ -77,8 +77,4 @@ $(document).ready(function () {
         }
     });
 
-
-    var loginView = new window.Innventia.Views.LoginView();
-});
-
-//})(window, jQuery);
+})(window, jQuery);
